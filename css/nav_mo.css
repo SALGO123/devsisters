@@ -1,0 +1,126 @@
+#header_mo {
+  display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    overflow: hidden;
+    height: 48px;
+
+    background: rgb(255, 95, 0);
+
+}
+
+.mo_nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 5.555555555555555vw;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  column-gap: 2.5vw;
+  row-gap: 0vw;
+  max-width: unset;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.mo_nav_class {
+  display: flex;
+  position: relative;
+  width: 100%;
+  grid-column-end: 4 span;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mo_logo_btn {
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+
+.mo_logo {
+  position: relative;
+  left: 0;
+  width: 120px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.mo_menu {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  position: relative;
+  display: block;
+  align-items: center;
+}
+.mo_menu{
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.mo_menu_icon{
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 50%;
+  width: 18px;
+  height: 16px;
+  transform: translateY(-50%);
+  outline: none;
+  padding: 0;
+  overflow: hidden;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.mo_menu_icon span{
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  border-radius: 50px;
+  transform-origin: center;
+  background: #FFFFFF;
+  transition: all 0.3s ease-out;
+  
+}
+.mo_menu_icon span:nth-of-type(1){
+  transform: rotate(0) translate(0, 5px);
+}
+.mo_menu_icon span:nth-of-type(3){
+  transform: rotate(0) translate(0, -5px);
+}
+
+@media (min-width: 1280px) {
+  #header_mo {
+    display: none;
+  }
+
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #header_mo {
+    display: none;
+  }
+}
+@media (min-width: 720px) and (max-width: 1023px) {
+  #header_mo {
+    display: flex;
+  }
+}
