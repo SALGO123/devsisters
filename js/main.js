@@ -13,7 +13,7 @@ var ctx = canvas.getContext("2d");
 var images = [];
 for (var i = 1; i <= 49; i++) {
     var img = new Image();
-    img.src = "./image/mo/home-hero-sq-" + String(i - 1).padStart(3, '0') + ".webp"; // 파일명 형식 지정
+    img.src = "../image/mo/home-hero-sq-" + String(i - 1).padStart(3, '0') + ".webp"; // 파일명 형식 지정
     images.push(img);
 }
 
