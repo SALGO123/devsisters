@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav_pc.css">
+    <link rel="stylesheet" href="css/nav_mo.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="sub_studios/css/section1.css">
+    <link rel="stylesheet" href="sub_studios/css/section2.css">
+    <link rel="stylesheet" href="sub_studios/css/section3.css">
+    <link rel="stylesheet" href="sub_studios/css/section4.css">
+    <link rel="stylesheet" href="sub_studios/css/section5.css">
+    <link rel="stylesheet" href="css/font_family.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header_pc">
+        <div class="nav">
+          <div class="nav_class">
+            <div class="logo">
+              <a href="index.html" class="mo_logo_btn"><svg width="100%" height="100%" viewBox="0 0 120 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <path
+                      d="M0 0.396484H6.03751C10.6045 0.396484 14.3572 3.72614 14.3572 7.99648C14.3572 12.2668 10.575 15.591 6.03751 15.591H0V0.396484ZM4.25354 12.2586H5.21249C7.75713 12.2586 9.92405 10.9703 9.92405 8.00753C9.92405 5.29028 7.9955 3.75648 5.258 3.75648H4.25354V12.2586Z"
+                      fill="#FFFFFF"></path>
+                    <path
+                      d="M19.7201 3.74545V6.2889H24.5228V9.62959H19.7201V12.2475H24.7826V15.591H15.4639V0.396484H24.7826V3.74545H19.7201Z"
+                      fill="#FFFFFF"></path>
+                    <path
+                      d="M33.4042 9.62959L37.3792 0.396484H42.0078L35.0113 15.591H31.7086L24.8301 0.396484H29.4506L33.4042 9.62959Z"
+                      fill="#FFFFFF"></path>
+                    <path
+                      d="M51.1904 4.30827C50.3784 3.67055 49.3883 3.31939 48.3672 3.30689C47.5877 3.30689 46.5431 3.72621 46.5431 4.57311C46.5431 5.46414 47.6949 5.8007 48.4342 6.02414L49.5217 6.32482C51.8038 6.94827 53.561 8.01862 53.561 10.4628C53.561 11.9772 53.1699 13.5276 51.8654 14.5593C50.561 15.591 48.8682 15.9883 47.2155 15.9883C45.1783 15.9771 43.185 15.3779 41.4619 14.2586L43.2833 11.0697C44.3547 11.9386 45.6084 12.6365 47.0682 12.6365C48.0673 12.6365 49.1306 12.1786 49.1306 11.111C49.1306 10.0435 47.4538 9.61862 46.5431 9.37586C43.8645 8.67241 42.1101 8.02414 42.1101 5.08897C42.1101 2.00207 44.486 -0.0117188 47.7619 -0.0117188C49.5392 0.0151319 51.2891 0.442617 52.8887 1.24069L51.1904 4.30827Z"
+                      fill="#FFFFFF"></path>
+                    <path d="M58.9686 0.396484H54.707V15.5882H58.9686V0.396484Z" fill="#FFFFFF"></path>
+                    <path
+                      d="M69.8709 4.30896C69.059 3.67302 68.0703 3.32204 67.0503 3.30758C66.2628 3.30758 65.2236 3.7269 65.2236 4.5738C65.2236 5.46483 66.3753 5.80139 67.1119 6.02484L68.1994 6.32552C70.4816 6.94896 72.2387 8.01931 72.2387 10.4634C72.2387 11.9779 71.845 13.5283 70.5406 14.56C69.2361 15.5917 67.5486 16 65.8932 16C63.8561 15.9885 61.8629 15.3893 60.1396 14.2703L61.9638 11.0814C63.0352 11.9503 64.2887 12.6483 65.7432 12.6483C66.7423 12.6483 67.803 12.1903 67.803 11.1228C67.803 10.0552 66.129 9.63035 65.221 9.38759C62.5424 8.68415 60.7906 8.03586 60.7906 5.10069C60.804 2.01379 63.1611 0 66.4289 0C68.2061 0.0274741 69.9559 0.454928 71.5558 1.25241L69.8709 4.30896Z"
+                      fill="#FFFFFF"></path>
+                    <path d="M79.9041 15.591H75.6478V3.74545H72.1309V0.396484H83.4237V3.74545H79.9041V15.591Z"
+                      fill="#FFFFFF"></path>
+                    <path
+                      d="M88.3551 3.74545V6.2889H93.1551V9.62959H88.3551V12.2475H93.4176V15.591H84.1016V0.396484H93.4176V3.74545H88.3551Z"
+                      fill="#FFFFFF"></path>
+                    <path
+                      d="M108.796 15.591H103.495L99.4771 9.74822H99.437V15.591H95.1807V0.396484H101.542C104.781 0.396484 107.237 1.83924 107.237 5.08614C107.237 7.18545 105.97 8.9951 103.65 9.37855L108.796 15.591ZM99.4343 7.21304H99.8441C101.237 7.21304 102.791 6.97028 102.791 5.31235C102.791 3.65442 101.226 3.42268 99.8441 3.42268H99.4343V7.21304Z"
+                      fill="#FFFFFF"></path>
+                    <path
+                      d="M117.63 4.30827C116.819 3.67059 115.83 3.3194 114.809 3.30689C114.022 3.30689 112.988 3.72621 112.988 4.57311C112.988 5.46414 114.137 5.8007 114.863 6.02414L115.948 6.32482C118.23 6.94827 119.99 8.01862 119.99 10.4628C119.99 11.9772 119.604 13.5276 118.292 14.5593C116.979 15.591 115.297 15.9883 113.647 15.9883C111.609 15.976 109.615 15.3769 107.891 14.2586L109.712 11.0697C110.783 11.9386 112.04 12.6365 113.494 12.6365C114.493 12.6365 115.559 12.1786 115.559 11.111C115.559 10.0435 113.888 9.61862 112.977 9.37586C110.299 8.67241 108.544 8.02414 108.544 5.08897C108.544 2.00207 110.909 -0.0117188 114.191 -0.0117188C115.969 0.0157097 117.719 0.443155 119.32 1.24069L117.63 4.30827Z"
+                      fill="#FFFFFF"></path>
+                  </g>
+                </svg></a>
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a href="#">ABOUT</a>
+                </li>
+                <li><a href="sub_game.html">GAMES</a>
+                  <ul class="sub_menu">
+                    <div class="sub_menu_pack">
+                      <div class="sub_menu_title">OUR GAMES</div>
+                      <ul>
+                        <li class="sub_menu_class">
+                          <a>쿠키런: 오븐브레이크</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>쿠키런: 킹덤</a>
+                        </li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 마녀의 성
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 모험의 탑
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+    
+                        <li class="sub_menu_class"><a>
+                            쿠키런
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            브릭시티
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 브레이버스
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 더 타키스트 나이트
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 퍼즐 월드
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="sub_menu_pack">
+                      <div class="sub_menu_title">COMING SOON</div>
+                      <li class="sub_menu_class"><a>
+                          쿠키런: 오븐스매시
+                          <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                            <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                              stroke-linecap="round"></path>
+                            <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                              stroke-linecap="round"></path>
+                            <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                              stroke-linecap="round"></path>
+                          </svg>
+                        </a></li>
+                    </div>
+                  </ul>
+                </li>
+                <li><a href="suv_studios.html">STUDIOS</a>
+                  <ul class="sub_menu">
+                    <div class="sub_menu_pack">
+                      <ul>
+                        <li class="sub_menu_class">
+                          <a>오븐게임즈</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>스튜디오킹덤</a>
+                        </li>
+                        <li class="sub_menu_class"><a>
+                            프레스에이
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            프레시동우
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+    
+    
+                      </ul>
+                    </div>
+    
+                  </ul>
+                </li>
+                <li><a href="sub_support/section1.html">STORIES</a>
+                  <ul class="sub_menu">
+                    <div class="sub_menu_pack">
+                      <ul>
+                        <li class="sub_menu_class">
+                          <a>뉴스</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>스토리</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>미디어</a>
+                        </li>
+    
+                      </ul>
+                    </div>
+    
+                  </ul>
+                </li>
+                <li><a href="#">INVESTORS</a>
+                  <ul class="sub_menu">
+                    <div class="sub_menu_pack">
+                      <ul>
+                        <li class="sub_menu_class">
+                          <a>기업지배구조</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>재무정보</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>공사정보</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>IR 정보</a>
+                        </li>
+                        <li class="sub_menu_class">
+                          <a>주가정보</a>
+                        </li>
+    
+                      </ul>
+                    </div>
+    
+                  </ul>
+                </li>
+                <li><a href="#">SUPPORT</a>
+                  <ul class="sub_menu">
+                    <div class="sub_menu_pack">
+                      <ul>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 마녀의 성
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 모험의 탑
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            BRIXITY
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 브레이버스
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 더 타키스트 나이트
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            쿠키런: 퍼즐 월드
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            솔리테어: 덱다웃
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+                        <li class="sub_menu_class"><a>
+                            DEVPLAY
+                            <svg viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="sub_menu_svg">
+                              <path d="M1.5 0.5H5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5V4.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                              <path d="M5.5 0.5L0.5 5.5" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10"
+                                stroke-linecap="round"></path>
+                            </svg>
+                          </a></li>
+    
+                      </ul>
+                    </div>
+    
+                  </ul>
+                </li>
+                <li><a href="#">CAREERS
+                    <svg viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg" class="menu_svg">
+                      <path
+                        d="M6.92008 0.619407C6.82017 0.369646 6.62036 0.179828 6.3706 0.069933C6.24073 0.0199809 6.11085 0 5.97099 0H1.99479C1.44532 0 0.995751 0.449569 0.995751 0.999043C0.995751 1.54852 1.44532 1.99809 1.99479 1.99809H3.57328L0.28643 5.28494C-0.00329229 5.57466 -0.0732253 6.01424 0.0766312 6.3739C0.176535 6.62366 0.376344 6.81347 0.626105 6.92337C0.98576 7.07323 1.42534 7.00329 1.71506 6.71357L5.00191 3.42672V5.00521C5.00191 5.55468 5.45148 6.00425 6.00096 6.00425C6.55043 6.00425 7 5.55468 7 5.00521V1.01902C7 0.879158 6.98002 0.749282 6.92008 0.619407Z"
+                        fill="#FFFFFF"></path>
+                    </svg></a>
+                </li>
+              </ul>
+            </div>
+            <div class="language">
+              <div class="language_ko">
+                <a href="">KO</a>
+                <span>
+                  <svg width="10" height="6" viewBox="0 0 10 6" class="arrow" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0 0.993328C0 1.25354 0.100076 1.50375 0.290219 1.70392L4.29322 5.70726C4.68352 6.09758 5.31398 6.09758 5.70428 5.70726L9.70728 1.70392C10.0976 1.31359 10.0976 0.683069 9.70728 0.292744C9.31699 -0.0975813 8.68652 -0.0975813 8.29623 0.292744L5.00375 3.58549L1.71128 0.292744C1.32099 -0.0975813 0.690521 -0.0975813 0.300228 0.292744C0.100078 0.492911 0.0100096 0.743119 0.0100096 1.00334L0 0.993328Z"
+                      fill="#FFFFFF"></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="language_en">
+                <div href="">EN</div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </header>
+      <header id="header_mo">
+        <div class="mo_nav">
+         <div class="mo_nav_class">
+          <div class="mo_logo">
+            <a href="#" class="logo_btn"><svg width="100%" height="100%" viewBox="0 0 120 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <path
+                    d="M0 0.396484H6.03751C10.6045 0.396484 14.3572 3.72614 14.3572 7.99648C14.3572 12.2668 10.575 15.591 6.03751 15.591H0V0.396484ZM4.25354 12.2586H5.21249C7.75713 12.2586 9.92405 10.9703 9.92405 8.00753C9.92405 5.29028 7.9955 3.75648 5.258 3.75648H4.25354V12.2586Z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M19.7201 3.74545V6.2889H24.5228V9.62959H19.7201V12.2475H24.7826V15.591H15.4639V0.396484H24.7826V3.74545H19.7201Z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M33.4042 9.62959L37.3792 0.396484H42.0078L35.0113 15.591H31.7086L24.8301 0.396484H29.4506L33.4042 9.62959Z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M51.1904 4.30827C50.3784 3.67055 49.3883 3.31939 48.3672 3.30689C47.5877 3.30689 46.5431 3.72621 46.5431 4.57311C46.5431 5.46414 47.6949 5.8007 48.4342 6.02414L49.5217 6.32482C51.8038 6.94827 53.561 8.01862 53.561 10.4628C53.561 11.9772 53.1699 13.5276 51.8654 14.5593C50.561 15.591 48.8682 15.9883 47.2155 15.9883C45.1783 15.9771 43.185 15.3779 41.4619 14.2586L43.2833 11.0697C44.3547 11.9386 45.6084 12.6365 47.0682 12.6365C48.0673 12.6365 49.1306 12.1786 49.1306 11.111C49.1306 10.0435 47.4538 9.61862 46.5431 9.37586C43.8645 8.67241 42.1101 8.02414 42.1101 5.08897C42.1101 2.00207 44.486 -0.0117188 47.7619 -0.0117188C49.5392 0.0151319 51.2891 0.442617 52.8887 1.24069L51.1904 4.30827Z"
+                    fill="#FFFFFF"></path>
+                  <path d="M58.9686 0.396484H54.707V15.5882H58.9686V0.396484Z" fill="#FFFFFF"></path>
+                  <path
+                    d="M69.8709 4.30896C69.059 3.67302 68.0703 3.32204 67.0503 3.30758C66.2628 3.30758 65.2236 3.7269 65.2236 4.5738C65.2236 5.46483 66.3753 5.80139 67.1119 6.02484L68.1994 6.32552C70.4816 6.94896 72.2387 8.01931 72.2387 10.4634C72.2387 11.9779 71.845 13.5283 70.5406 14.56C69.2361 15.5917 67.5486 16 65.8932 16C63.8561 15.9885 61.8629 15.3893 60.1396 14.2703L61.9638 11.0814C63.0352 11.9503 64.2887 12.6483 65.7432 12.6483C66.7423 12.6483 67.803 12.1903 67.803 11.1228C67.803 10.0552 66.129 9.63035 65.221 9.38759C62.5424 8.68415 60.7906 8.03586 60.7906 5.10069C60.804 2.01379 63.1611 0 66.4289 0C68.2061 0.0274741 69.9559 0.454928 71.5558 1.25241L69.8709 4.30896Z"
+                    fill="#FFFFFF"></path>
+                  <path d="M79.9041 15.591H75.6478V3.74545H72.1309V0.396484H83.4237V3.74545H79.9041V15.591Z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M88.3551 3.74545V6.2889H93.1551V9.62959H88.3551V12.2475H93.4176V15.591H84.1016V0.396484H93.4176V3.74545H88.3551Z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M108.796 15.591H103.495L99.4771 9.74822H99.437V15.591H95.1807V0.396484H101.542C104.781 0.396484 107.237 1.83924 107.237 5.08614C107.237 7.18545 105.97 8.9951 103.65 9.37855L108.796 15.591ZM99.4343 7.21304H99.8441C101.237 7.21304 102.791 6.97028 102.791 5.31235C102.791 3.65442 101.226 3.42268 99.8441 3.42268H99.4343V7.21304Z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M117.63 4.30827C116.819 3.67059 115.83 3.3194 114.809 3.30689C114.022 3.30689 112.988 3.72621 112.988 4.57311C112.988 5.46414 114.137 5.8007 114.863 6.02414L115.948 6.32482C118.23 6.94827 119.99 8.01862 119.99 10.4628C119.99 11.9772 119.604 13.5276 118.292 14.5593C116.979 15.591 115.297 15.9883 113.647 15.9883C111.609 15.976 109.615 15.3769 107.891 14.2586L109.712 11.0697C110.783 11.9386 112.04 12.6365 113.494 12.6365C114.493 12.6365 115.559 12.1786 115.559 11.111C115.559 10.0435 113.888 9.61862 112.977 9.37586C110.299 8.67241 108.544 8.02414 108.544 5.08897C108.544 2.00207 110.909 -0.0117188 114.191 -0.0117188C115.969 0.0157097 117.719 0.443155 119.32 1.24069L117.63 4.30827Z"
+                    fill="#FFFFFF"></path>
+                </g>
+              </svg></a>
+          </div>
+          <div class="mo_menu">
+            <button class="mo_menu_icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+         </div>
+    
+        </div>
+    
+      </header>
+    <main>
+        <section class="s1">
+            <div class="s1_img">
+                <img src="sub_studios/img/oven-games-hero.jpg" alt="">
+            </div>
+            <div class="s1_title">
+              <div class="s1_title_a">
+                  <img class="s1_title_b1" src="sub_studios/img/oven-games-logo.svg" alt="">
+                  <strong class="s1_title_b2">맛있고 다양한 게임을 구워내는 곳</strong>
+              </div>
+            </div>
+          </section>
+          <section class="s2">
+            <div class="s2_a">
+                <div class="s2_b1">
+                    <article class="s2_b1_c">
+                        <h4 class="s2_b1_d1">오븐게임즈</h4>
+                        <p class="s2_b1_d2">오븐게임즈는 많은 사람들이 작지만 달콤한 행복을 느낄 수 있도록 시간과 정성을 다해 맛있고 다양한 게임을 만들고자 합니다.</p>
+                        <p class="s2_b1_d2">오븐게임즈는 세상을 즐겁게 하고자 하는 열정이 가득한 게임 개발 스튜디오입니다.
+                        대표 게임 ‘쿠키런: 오븐브레이크’를 2016년 출시하여 현재까지 운영 중이며,
+                        꾸준히 스토어에서 유저 수 및 매출 상위권에 노출되는 등 뛰어난 개발과 운영 역량을 보유한 회사입니다.</p>
+                    </article>
+                </div>
+                <div class="s2_b2">
+                    <div class="s2_b2_c1">
+                        <video muted playsinline poster loop autoplay>
+                            <source src="https://www.devsisters.com/video/studio/studio-ovengames-trailer.mp4" type="video/mp4; codecs=avc1.42E01E">
+                        </video>
+                    </div>
+                    <div class="s2_b2_c2">
+                        <strong class="s2_b2_c2_d1 ">세상에 없는 새로운 재미 레시피로<br/> ‘맛있고 다양한 게임’을 구워냅니다.</strong>            
+                        <a class="s2_b2_c2_d2 ">
+                            <button type="button">VIEW TRAILER</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="s3_a">
+                <ul class="s3_b">
+                    <li class="s3_c">
+                        <div class="s3_d1">
+                            <h4 class="s3_d1_a1">세상에 없는 새로운 <br/> '재미' 레시피를 위해</h4>
+                            <p class="s3_d1_a2">오븐게임즈는 기존의 게임에서 만날 수 없는 저희 게임만의 새로운 재미와 유저 경험을 위해 고민하고 있습니다.</p>
+                            <p class="s3_d1_a3">러닝 장르의 새로운 축을 만들었다는 평가를 받는 쿠키런: 오븐브레이크와 함께 캐주얼 레이드의 재미를 주는 쿠키런: 모험의 탑, 그리고 프로젝트 Station에서도 독창적인 게임 제작을 위한 도전을 멈추지 않고 있습니다.</p>
+                        </div>
+                        <div class="s3_d2">
+                            <img alt="사랑, 스튜디오 킹덤의 영감이 되다" src="sub_studios/img/oven-games-info-1.png" style="color:transparent">
+                            <img alt="We are Press A" src="sub_studios/img/oven-games-info-1-2.png" style="color:transparent">
+                        </div>
+                    </li>
+                    <li class="s3_c">
+                        <div class="s3_d1_2">
+                            <h4 class="s3_d1_a1">언제나 따뜻한 <br/> 오븐의 열기</h4>
+                            <p class="s3_d1_a2">게임을 사랑하는 사람들이 모인 오븐게임즈에는 게임을 향한 열정이 있습니다.
+                            많은 이들의 가슴을 뛰게 한 게임의 설렘과 추억을 간직한 사람들이 모여 유저분들이 저희와 같은 즐거움을 경험하실 수 있도록 끊임없이 연구하며 발전해 나가고 있습니다.</p>
+                        </div>
+                        <div class="s3_d2">
+                            <img alt="사랑, 스튜디오 킹덤의 영감이 되다" src="sub_studios/img/oven-games-info-2.png" style="color:transparent">
+                            <img alt="We are Press A" src="sub_studios/img/oven-games-info-2-2.png" style="color:transparent">
+                        </div>
+                    </li>
+                    <li class="s3_c">
+                        <div class="s3_d1">
+                            <h4 class="s3_d1_a1">전 세계가 즐기는 <br/> 달콤한 게임</h4>
+                            <p class="s3_d1_a2">모두가 즐길 수 있는 음식이 좋은 음식이듯, 오븐게임즈는 남녀노소 누구에게나 즐거운 게임을 만들고자 합니다. 전 세계 다양한 사람들이 즐기며 마음을 나눌 수 있는 저희만의 게임으로 모두의 삶에 작지만 소중한 시간을 선물하겠습니다.</p>
+                        </div>
+                        <div class="s3_d2">
+                            <img alt="사랑, 스튜디오 킹덤의 영감이 되다" src="sub_studios/img/oven-games-info-3.png" style="color:transparent">
+                            <img alt="We are Press A" src="sub_studios/img/oven-games-info-3-2.png" style="color:transparent">
+                        </div>
+                    </li>   
+                    <span class="bottom_line"></span>  
+                </ul>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="s4_title">
+              <div class="s4_title_a">
+                <h3 color="#FF5F00" class="s4_title_b1">WE CREATE</h3>
+                <p class="s4_title_b2">오븐게임즈가 제작한 다양한 게임을 만나보세요.</p>
+              </div>
+            </div>   
+            <div class="s4_class">
+              <div class="s4_card">
+                  <div class="s4_card_a">
+                      <figure class="s4_card_b1">
+                          <img alt="쿠키런: 오븐브레이크" src="sub_studios/img/oven-games-wecreate-1.jpg" class="css-12jx3m" style="color:transparent">
+                      </figure>
+                      <article class="s4_card_b2">
+                          <div class="s4_card_b2_a1">
+                              <h4 class="s4_card_b2_a1_a1">러닝액션 / 모바일</h4>
+                              <h3 class="s4_card_b2_a1_a2">쿠키런: 오븐브레이크</h3>
+                              <p class="s4_card_b2_a1_a3">마녀의 오븐을 탈출한 개성 넘치는 쿠키들!
+                          매력적인 쿠키&amp;펫과 함께 달리며 신나는 모험을 떠나요.</p>
+                          </div>
+                          <div class="s4_card_b2_a2">
+                              <div class="s4_card_b2_a2_a">
+                                  <a target="_self" href="#">VIEW GAME</a>
+                                  <div class="css-5syivk ">
+                                    <svg viewBox="0 0 6 10" fill="none" class="css-69rjst eliom2z2"><path fill="#FF8C00" d="M1,10c0.3,0,0.5-0.1,0.7-0.3l4-4c0.4-0.4,0.4-1,0-1.4l-4-4c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L3.6,5 L0.3,8.3c-0.4,0.4-0.4,1,0,1.4C0.5,9.9,0.7,10,1,10L1,10z"></path></svg>
+                              </div>
+                          </div>
+                      </article>
+                  </div>
+              </div>
+              <div class="s4_card">
+                <div class="s4_card_a">
+                    <figure class="s4_card_b1">
+                        <img alt="쿠키런: 오븐브레이크" src="sub_studios/img/oven-games-wecreate-2.png" class="css-12jx3m" style="color:transparent">
+                    </figure>
+                    <article class="s4_card_b2">
+                        <div class="s4_card_b2_a1">
+                            <h4 class="s4_card_b2_a1_a1">캐주얼 협동 액션 / 모바일</h4>
+                            <h3 class="s4_card_b2_a1_a2">쿠키런: 모험의 탑</h3>
+                            <p class="s4_card_b2_a1_a3">봉인이 풀린 거대한 마녀의 오븐! 악에 물든 팬케이크 타워를
+                            구하기 위한 쿠키들의 용감한 여정이 시작됩니다!
+                        </div>
+                        <div class="s4_card_b2_a2">
+                            <div class="s4_card_b2_a2_a">
+                                <a target="_self" href="#">VIEW GAME</a>
+                                <div>
+                                  <svg viewBox="0 0 6 10" fill="none" class="css-69rjst eliom2z2"><path fill="#FF8C00" d="M1,10c0.3,0,0.5-0.1,0.7-0.3l4-4c0.4-0.4,0.4-1,0-1.4l-4-4c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L3.6,5 L0.3,8.3c-0.4,0.4-0.4,1,0,1.4C0.5,9.9,0.7,10,1,10L1,10z"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="s5_class">
+                <div class="s5_class_a1">
+                  <h3 class="s5_title">JOIN OUR BRAVE<br> JOURNEY</h3>
+                  <p class="s5_process">데브시스터즈의 용감한 여정에 합류할
+                    여러분들을 기다립니다</p>
+                  <div class="s5_btn">
+                        <a href="#a" class="s5_btn_b">
+                          <button type="button" class="s5_btn_c1">SEE CAREER
+                            <img src="/image/footer_arrow.svg" alt="">
+                          </button>
+                          
+                        </a>
+                    </div>
+                  </div>
+                <div class="s5_class_a2">
+                  <img src="../image/all/hiring-char.png" alt="쿠키런" decoding="async" data-nimg="1" class="css-0"
+                    style="color:transparent">
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer class="f">
+        <section class="f_class">
+            <div class="f1">
+                <div class="f1_a">
+                    <div class="div f1_b">
+                        <div class="f1_c1">
+                            <ul class="f1_c1_">
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b">
+                                        <span class="f1_c1_c">CONTACT</span>
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b ">
+                                        <span class="f1_c1_c">브랜드 리소스</span>
+                                        <img src="../image/footer_arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b ">
+                                        <span class="f1_c1_c">브랜드 리소스</span>
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b noa">
+                                        <span class="f1_c1_c">윤리강령</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="f1_c1_">
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b">
+                                        <span class="f1_c1_c">보호자 안내서</span>
+                                        <img src="../image/footer_arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b noa">
+                                        <span class="f1_c1_c bord">개인정보처리방침</span>
+                                        <img src="../image/footer_arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b">
+                                        <span class="f1_c1_c">이용약관 및 규정</span>
+                                        <img src="../image/footer_arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b">
+                                        <span class="f1_c1_c">기술 블로그</span>
+                                        <img src="../image/footer_arrow.svg" alt="">
+                                    
+                                    </a>
+                                </li>
+                                <li class="f1_c1_a">
+                                    <a href="" class="f1_c1_b noa">
+                                        <span class="f1_c1_c">쿠키런 스토어</span>
+                                        <img src="../image/footer_arrow.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="f1_c2">
+                            <div class="f1_c2_a1">
+                                <span>FAMILY SITES</span>
+                                <img src="../image/all/arrow_drop.svg" alt="arrow">
+                            </div>
+                            <ul class="f1_c2_a2">
+                                <li class="f1_c2_a2_a">
+                                    <a href="#">STUDIO KINGDOM</a>
+                                </li>
+                                <li class="f1_c2_a2_a">
+                                    <a href="#">PRESS A</a>
+                                </li>
+                                <li class="f1_c2_a2_a">
+                                    <a href="#">Devsisters Ventures</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="f2">
+                <div class="f2_a1">
+                        <ul class="f2_a1_b">
+                            <li class="f2_a1_c">
+                                <a href="#" class="f2_a1_d">
+                                    <img src="../image/sns-youtube.svg" alt="youtube">
+                                </a>
+                            </li>
+                            <li class="f2_a1_c">
+                                <a href="#" class="f2_a1_d">
+                                    <img src="../image/sns-x.svg" alt="youtube">
+                                </a>
+                            </li>
+                            <li class="f2_a1_c">
+                                <a href="#" class="f2_a1_d">
+                                    <img src="../image/sns-linkedin.svg" alt="youtube">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="f2_a2"><img src="image/logo-footer.svg" alt=""></div>
+                        <address class="f2_a3">(06019) 서울특별시 강남구 도산대로 327</address>
+                        <p class="f2_a4">CookieRun® © 2022 Devsisters Corp. All Rights Reserved</p>
+                </div> 
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

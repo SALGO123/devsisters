@@ -1,0 +1,293 @@
+.s2{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0px auto 17.7778vw;
+    overflow: hidden;
+}
+.s2_a{
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 5.5vw;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 2.7vw;
+    row-gap: 0vw;
+    max-width: unset;
+}
+/*------------------------------
+sub_studios s2 process
+--------------------------------*/
+.s2_b1{
+    display: block;
+    position: relative;
+    width: 100%;
+    grid-column-end: 4 span;
+}
+.s2_b1_c{
+    margin-top: 16vw;
+    margin-bottom: 16vw;
+    text-align: center;
+}
+.s2_b1_d1{
+    font-family: Pretendard-Black;
+    font-size: 8.9vw;
+    line-height: 1.2;
+    /* opacity: 0;
+    transform: translate3d(0, 90px, 0); */
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.8s, opacity 0.8s ;
+    color: #000000;
+    white-space: normal;
+    margin-bottom: 5vw;
+}    
+.s2_b1_d2:nth-of-type(2){
+    transition-delay: 0.1s;
+}
+.s2_b1_d2{
+    font-family: Pretendard-Medium;
+    font-size: 5.1vw;;
+    line-height: 1.4;
+    /* opacity: 0;
+    transform: translate3d(0, 90px, 0); */
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.8s, opacity 0.8s;
+    color: #333333;
+    white-space: pre-line;
+    margin-bottom: 5vw;
+}
+/*------------------------------
+sub_studios s2 video
+--------------------------------*/
+.s2_b2{
+    display: block;
+    position: relative;
+    width: 100%;
+    grid-column-end: 4 span;
+    /* opacity: 0;
+    transform: translate3d(0, 90px, 0); */
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.8s, opacity 0.8s;
+}
+.s2_b2_c1{
+    position: relative;
+    width: 100%;
+    height: 90vw;
+    border-radius: 10px;
+    transform: translateZ(1px);
+    overflow: hidden;
+    
+    
+}
+.s2_b2_c1 video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    
+    
+}
+.s2_b2_c2{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    white-space: pre-line;
+}
+.s2_b2_c2_d1{
+    font-family: Pretendard-Black;
+    font-size: 5vw;
+    line-height: 1.3;
+    color: rgb(255, 255, 255);
+    margin-top: 7.5vw;
+}
+
+.s2_b2_c2_d2 button{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 11vw;
+    padding: 2vw 6vw;
+    font-family: proxima-nova, Dotum, 돋움, 굴림, arial;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.9vw;
+    line-height: 1;
+    border-radius: 10vw;
+    color: white;
+    border: 2px solid white;
+    align-items: center;
+    background-color:transparent;
+}
+
+  /*-------------------------------
+    pc
+    --------------------------------*/
+    @media (min-width: 1280px) {
+        .s2{
+            margin-bottom: 96px;
+        }
+        .s2_a{
+            padding: 0 80px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 30px;
+            row-gap: 0px;
+            max-width: 1280px;
+        }
+        /*------------------------------
+        sub_studios s2 process
+        --------------------------------*/
+        .s2_b1_c{
+            margin-top: 88px;
+            margin-bottom: 44px;
+            text-align: center;
+        }
+        .s2_b1_d1{
+            margin-bottom: 14px;
+            font-size: 48px;
+            line-height: 1.16;
+        }    
+        .s2_b1_d2{
+            margin-bottom: 24px;
+            font-family: Pretendard-SemiBold;
+            font-size: 20px;
+            line-height: 1.5;    
+        }
+        /*------------------------------
+        sub_studios s2 video
+        --------------------------------*/
+        .s2_b2_c1{
+            height: 512px;
+        }
+        .s2_b2_c2_d1{
+            display: block;
+            width: auto;
+            font-size: 32px;
+            line-height: 1.25;
+        }
+        .s2_b2_c2_d2 button{
+            font-size: 16px;
+            line-height: 1.5;
+            height: 48px;
+            padding: 12px 24px;
+            border-radius: 36px;
+        }
+    }
+
+  /*-------------------------------
+    타블렛 가로
+    --------------------------------*/
+    @media (min-width: 1024px) and (max-width: 1280px) {
+        .s2{
+            margin-bottom: 7.5vw;
+        }
+        .s2_a{
+            padding: 0 6.25vw;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 30px;
+            row-gap: 0px;
+            max-width: 100vw;
+        }
+
+        /*------------------------------
+        sub_studios s2 process
+        --------------------------------*/
+        .s2_b1_c{
+            margin-top: 88px;
+            margin-bottom: 44px;
+            text-align: center;
+        }
+        .s2_b1_d1{
+            margin-bottom: 14px;
+            font-size: 3.75vw;
+            line-height: 1.16;
+        }    
+        .s2_b1_d2{
+            margin-bottom: 24px;
+            font-family: Pretendard-SemiBold;
+            font-size: 1.55vw;
+            line-height: 1.5;    
+        }
+        /*------------------------------
+        sub_studios s2 video
+        --------------------------------*/
+        .s2_b2_c1{
+            height: 512px;
+        }
+        .s2_b2_c2_d1{
+            display: block;
+            width: auto;
+            font-size: 2.5vw;
+            line-height: 1.25;
+        }
+        .s2_b2_c2_d2 button{
+            font-size: 1.45vw;
+            line-height: 1.5;
+            height: 48px;
+            padding: 12px 24px;
+            border-radius: 36px;
+        }
+    }
+  /*-------------------------------
+    타블렛 세로
+    --------------------------------*/
+    @media (min-width: 720px) and (max-width: 1024px) {
+        .s2{
+            margin-bottom: 9.375vw;
+        }
+        .s2_a{
+            padding: 0 3.125vw;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 2.9vw;
+            row-gap: 0vw;
+            max-width: 100vw;
+        }
+        /*------------------------------
+        sub_studios s2 process
+        --------------------------------*/
+        .s2_b1_c{
+            margin-top: 8.6vw;
+            margin-bottom: 4.3vw;
+            text-align: center;
+        
+        }
+        .s2_b1_d1{
+            margin-bottom: 14px;
+            font-size: 6.68vw;
+            line-height: 1.16;
+        }    
+        .s2_b1_d2{
+            margin-bottom: 24px;
+            font-family: Pretendard-SemiBold;
+            font-size: 1.5vw;
+            line-height: 1.5;    
+        }
+        /*------------------------------
+        sub_studios s2 video
+        --------------------------------*/
+        .s2_b2_c1{
+            height: 50vw;
+        }
+        .s2_b2_c2_d1{
+            display: block;
+            width: auto;
+            font-size: 3.125vw;
+            line-height: 1.25;
+        }
+        .s2_b2_c2_d2 button{
+            font-size: 1.5vw;
+            line-height: 1.5;
+            height: 4.6875vw;
+            padding: 1.2vw 2.3vw;
+            border-radius: 36px;
+        }
+    }

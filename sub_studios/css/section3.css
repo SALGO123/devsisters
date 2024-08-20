@@ -1,0 +1,286 @@
+.s3{
+    padding: 17vw 0;
+}
+.s3_a{
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 5vw;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 2.7vw;
+    row-gap: 0vw;
+    max-width: unset;
+}
+.s3_b{
+    position: relative;
+    width: 100%;
+    grid-column-end: 4 span;
+
+}
+.s3_c{
+    display: grid;
+    width: 100%;
+    position: relative;
+    margin: 0 ;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 2.7vw;
+    max-width: unset;
+    align-items: flex-start;
+    margin-bottom: 15vw;
+}
+.s3_c:last-of-type {
+    margin-bottom: 0px;
+}
+.s3_d1 h4{
+    transition: transform 1s 0.5s, opacity 1s 0.5s;
+    /* opacity: 0;
+    transform: translate3d(0, 40px, 0); */
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.s3_d1 p {
+    transition: transform 1s 0.5s, opacity 1s 0.5s;
+    /* opacity: 0;
+    transform: translate3d(0, 40px, 0); */
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.s3_d1{
+    display: block;
+    position: relative;
+    width: 100%;
+    grid-column-end: 2 span;
+    order: 1;
+}
+.s3_d1_2{
+    display: block;
+    position: relative;
+    width: 100%;
+    grid-column-end: 2 span;
+    order: 1;
+}
+.s3_d2{
+    display: block;
+    position: relative;
+    width: 100%;
+    grid-column-end: 2 span;
+}
+.s3_d1_a1{
+    font-family: Pretendard-Black;
+    font-size: 8.9vw;
+    line-height: 1.1875;
+    color: #000000;
+    white-space: pre-line;
+    margin-bottom: 3.9vw;
+}
+.s3_d1_a2{
+    font-family: Pretendard-SemiBold;
+    font-size: 3.77vw;
+    line-height: 1.42;
+    color: #333333;
+    white-space: pre-line;
+}
+.s3_d1_a3{
+    font-family: Pretendard-SemiBold;
+    font-size: 3.8vw;
+    line-height: 1.42;
+    color: #333333;
+    white-space: normal;
+    margin-top: 5;
+}
+.s3_d2{
+    display: block;
+    position: relative;
+    width: 100%;
+    grid-column-end: 2 span;
+
+}
+.s3_d2 img{
+    /* opacity: 0;
+    transform: translate3d(0, 90px, 0); */
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.8s, opacity 0.8s;
+    order: -1;
+    position: relative;
+    margin-bottom: 3.9vw;
+    width: 100% ;   height: auto;
+}
+.s3_d2 img:nth-of-type(2) {
+    animation: animation-zwmsgc 2.5s ease-in-out infinite;
+}
+@keyframes animation-zwmsgc{
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+}
+.s3_d2 img:nth-of-type(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.bottom_line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: -17.7778vw;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+  /*-------------------------------
+    pc
+    --------------------------------*/
+    @media (min-width: 1280px) {
+        .s3{
+            padding: 96px;
+        }
+        .s3_a{
+            padding: 0 80px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 30px;
+            row-gap: 0px;
+            max-width: 1200px;
+        }
+        .s3_c{
+            margin-bottom: 80px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 30px;
+            row-gap: 0px;
+            max-width: 1200px;
+        }
+        /*------------------------------
+        sub_studios s2 process
+        --------------------------------*/
+        .s3_d1{
+            order: 0;
+            margin-top: 90px;
+        }
+        .s3_d1_2{
+            order: 1;
+            margin-top: 90px;
+        }
+        .s3_d1_a1{
+            white-space: pre-line;
+            margin-bottom: 14px;
+            font-size: 48px;
+            line-height: 1.16;
+        }
+        .s3_d1_a2{
+            white-space: pre-line;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .s3_d1_a3{
+            white-space: pre-line;
+            margin-top: 25px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .bottom_line{
+            bottom: -96px;
+        }
+
+    }
+
+  /*-------------------------------
+    타블렛 가로
+    --------------------------------*/
+    @media (min-width: 1024px) and (max-width: 1280px) {
+
+        .s3{
+            padding: 80px;
+        }
+        .s3_a{
+            padding: 0 6.25vw;
+            column-gap: 30px;
+            row-gap: 0px;
+            max-width: 100vw;
+        }
+        .s3_c{
+            margin-bottom: 80px;
+            padding: 0 0vw;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 30px;
+            row-gap: 0px;
+            max-width: 100vw;
+        }
+        /*------------------------------
+        sub_studios s2 process
+        --------------------------------*/
+        .s3_d1{
+            order: 0;
+            margin-top: 7vw;
+        }
+        .s3_d1_2{
+            margin-top: 7vw;
+        }
+        .s3_d1_a1{
+            white-space: pre-line;
+            margin-bottom: 14px;
+            font-size: 3.75vw;
+            line-height: 1.1;;
+        }
+        .s3_d1_a2{
+            white-space: pre-line;
+            font-size: 1.25vw;
+            line-height: 1.5;
+        }
+        .s3_d1_a3{
+            white-space: pre-line;
+            font-size: 1.25vw;
+            line-height: 1.5;
+        }
+        .bottom_line{
+            bottom: -96px;
+        }
+       
+    }
+  /*-------------------------------
+    타블렛 세로
+    --------------------------------*/
+    @media (min-width: 720px) and (max-width: 1024px) {
+        .s3{
+            padding: 9.375vw;
+        }
+        .s3_a{
+            padding: 0 3.125vw;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 2.9296875vw;
+            row-gap: 0vw;
+            max-width: 100vw;
+        }
+        .s3_c{
+            margin-bottom: 10vw;
+            padding: 0 0vw;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            column-gap: 2.9296875vw;
+            row-gap: 0vw;
+            max-width: 100vw;
+        }
+        /*------------------------------
+        sub_studios s2 process
+        --------------------------------*/
+        .s3_d1{
+            order: 0;
+        }
+        .s3_d1_a1{
+            white-space: pre-line;
+            margin-bottom: 1.36vw;
+            font-size: 4.7vw;
+            line-height: 1.1;
+        }
+        .s3_d1_a2{
+            white-space: pre-line;
+            font-size: 1.7vw;
+            line-height: 1.5;
+        }
+        .s3_d1_a3{
+            white-space: pre-line;
+            font-size: 1.7vw;
+            line-height: 1.5;
+        }
+        .bottom_line{
+            bottom: -9.375vw;
+        }
+    }
