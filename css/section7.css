@@ -1,31 +1,30 @@
 .main_s7{
     display: block;
     position: relative;
-    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     padding: 18vw 0 ;
     z-index: 99999;
 }
-.main_7_class{
+.main_s7_class{
     display: grid;
     position: relative;
     margin: 0 auto;
     padding: 0 5vw;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    column-gap: 2.7777777777777777vw;
+    column-gap: 2.7vw;
     row-gap: 0vw;
     max-width: unset;
     border-radius: 5vw;
 }
-.main_7_class2{
+.main_s7_class2{
     display: block;
     position: relative;
     border-radius: 2.2vw;
     padding: 11.4vw 4.4vw 63.9vw;
     position: relative;
 }
-.main_7_class_a1{
+.main_s7_class_a1{
     display: block;
     position: relative;
     background: #F8E8DA;
@@ -34,7 +33,7 @@
     padding: 11.4vw 4.4vw 63.9vw;
     position: relative;
 }
-.main_7_title{
+.main_s7_title{
     opacity: 1;
     transform: translate3d(0, 0, 0);
     transition: transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.8s cubic-bezier(0.075, 0.82, 0.165, 1), color 0.3s linear;
@@ -47,14 +46,14 @@
     color: #FF5F00;
     padding: 0 1.1vw;
 }
-.main_7_process{
+.main_s7_process{
     font-family: Pretendard-Medium;
     font-size: 3.9vw;
     line-height: 1.4;
     margin: 4.2vw 0 7.8vw;
     white-space: pre-line;
 }
-.main_7_class_a2{
+.main_s7_class_a2{
     position: absolute;
     right: 5.5vw;
     bottom: -5vw;
@@ -64,15 +63,55 @@
     opacity: 1;
     transition: transform 0.4s;
 }
-.main_7_class_a2 img{
+.main_s7_class_a2 img{
     width: 100%;
     height: auto;
 }
+
+
+/*-------------------------------
+  MAIN section7 btn
+  --------------------------------*/
+  .main_s7_btn{
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    column-gap: 2.7vw;
+    row-gap: 0vw;
+    margin: 0;
+    max-width: unset;
+  }
+  .main_s7_btn_c1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 11vw;
+    padding: 2vw 6vw;
+    border-radius: 10vw;
+    color: #FFFFFF;
+    transition: color 0.2s linear, background 0.2s linear, opacity 0.2s linear, border 0.2s linear, stroke 0.2s linear, fill 0.2s linear;
+    z-index: 0;
+    background: #000000;
+    font-family: proxima-nova;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.9vw;
+    line-height: 1;
+  }
+  .main_s7_btn_c1 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.7vw;
+    width: 2vw;
+  }
 @media (min-width: 1280px){
     .main_s7{
         padding: 96px 0;
     }
-    .main_7_class{
+    .main_s7_class{
         border-radius: 20px;
         padding: 0 80px;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -80,33 +119,45 @@
         row-gap: 0px;
         max-width: 1200px;
     }
-    .main_7_class_a1{
+    .main_s7_class_a1{
         border-radius: 8px;
         padding: 52px 80px 58px;
     }
-    .main_7_title{
+    .main_s7_title{
         white-space: pre-wrap;
         padding: 0;
         font-size: 90px;
         line-height: 0.8;
     }
-    .main_7_process{
+    .main_s7_process{
         margin: 20px 0 30px;
         white-space: unset;
         font-size: 16px;
         line-height: 1.5;
     }
-    .main_7_class_a2{
+    .main_s7_class_a2{
         right: 220px;
         bottom: -6px;
         width: 374px;
     }
+    .main_s7_btn_c1{
+        font-size: 16px;
+        line-height: 1.5;
+        width: auto;
+        height: 48px;
+        padding: 12px 24px;
+        border-radius: 36px;
+      }
+      .main_s7_btn_c1 img{
+        margin-left: 6px;
+        width: 8px;
+      }
 }
-@media (min-width: 1024px) and (max-width: 1240px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .main_s7{
         padding: 7.5vw 0;
     }
-    .main_7_class{
+    .main_s7_class{
         border-radius: 20px;
         padding: 0 6.25vw;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -114,33 +165,45 @@
         row-gap: 0px;
         max-width: 100vw;
     }
-    .main_7_class_a1{
+    .main_s7_class_a1{
         border-radius: 8px;
         padding: 52px 80px 58px;
     }
-    .main_7_title{
+    .main_s7_title{
         white-space: pre-wrap;
         padding: 0;
         font-size: 72px;
         line-height: 0.8;
     }
-    .main_7_process{
+    .main_s7_process{
         margin: 20px 0 30px;
         white-space: unset;
         font-size: 16px;
         line-height: 0.8;
     }
-    .main_7_class_a2{
+    .main_s7_class_a2{
         right: 17vw;
         bottom: -6px;
         width: 29vw
     }
+    .main_s7_btn_c1{
+        font-size: 1.5vw;
+        line-height: 1.5;
+        width: auto;
+        height: 48px;
+        padding: 12px 24px;
+        border-radius: 36px;
+    }
+      .main_s7_btn_c1 img{
+        margin-left: 6px;
+        width: 0.625vw;
+      }
 }
 @media (min-width: 720px) and (max-width: 1024px) {
     .main_s7{
         padding: 5.8vw 0 6.25vw;
     }
-    .main_7_class{
+    .main_s7_class{
         border-radius: 20px;
         padding: 0 3.1vw;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -148,25 +211,37 @@
         row-gap: 0vw;
         max-width: 100vw;
     }
-    .main_7_class_a1{
+    .main_s7_class_a1{
         border-radius: 0.78125vw;
         padding: 5vw 7.8vw 5.6vw;
     }
-    .main_7_title{
+    .main_s7_title{
         white-space: pre-wrap;
         padding: 0;
         font-size: 7.03125vw;
-        line-height: 0.8055555555555556;
+        line-height: 0.8;
     }
-    .main_7_process{
+    .main_s7_process{
         margin: 20px 0 30px;
         white-space: unset;
         font-size: 1.5vw;
-        line-height: 0.8055555555555556;
+        line-height: 0.8;
     }
-    .main_7_class_a2{
+    .main_s7_class_a2{
         right: 9.7vw;
         bottom: -0.6vw;
         width: 38vw;
     }
+    .main_s7_btn_c1{
+        font-size: 1.5625vw;
+        line-height: 1.5;
+        width: auto;
+        height: 4.6875vw;
+        padding: 1.2vw 2.3vw;
+        border-radius: 36px;
+      }
+      .main_s7_btn_c1 img{
+        margin-left: 0.6vw;
+        width: 0.8vw;
+      }
 }

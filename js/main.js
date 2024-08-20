@@ -1,3 +1,35 @@
+window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('header_pc');
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');
+  }
+});
+var canvas = document.querySelector(".main_s1_process_b2_d");
+var ctx = canvas.getContext("2d");
+
+// 이미지 배열 생성
+var images = [];
+for (var i = 1; i <= 49; i++) {
+    var img = new Image();
+    img.src = "./image/mo/home-hero-sq-" + String(i - 1).padStart(3, '0') + ".webp"; // 파일명 형식 지정
+    images.push(img);
+}
+
+// 애니메이션 함수
+var currentIndex = 0;
+var delay = 50; // 지연 시간 (밀리초)
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(images[currentIndex], 0, 0, canvas.width, canvas.height);
+    currentIndex = (currentIndex + 1) % images.length;
+    setTimeout(animate, delay);
+    }
+
+    // 애니메이션 시작
+    animate();
+
 const swiper = new Swiper('.swiper', {
     autoplay: {
       delay: 0,
